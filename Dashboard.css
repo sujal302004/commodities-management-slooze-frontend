@@ -1,0 +1,47 @@
+.dashboard {
+  padding: 40px 60px;
+}
+
+.dashboard h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.stat-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.stat-number {
+  font-size: 28px;
+  margin-top: 12px;
+  font-weight: 700;
+  color: #222;
+}
+
+.stat-number.warning {
+  color: #ff9800;
+}
+
+.recent-activity {
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
